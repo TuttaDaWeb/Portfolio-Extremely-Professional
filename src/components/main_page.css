@@ -1,0 +1,111 @@
+.container{
+    padding: 4.2%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.container img{
+    width: 36%;
+    border-radius: 50%;
+    box-shadow: 1.5rem 2rem 3rem #000,
+                1.5rem 2rem 3rem #000;
+    filter: grayscale(1);
+    transition: linear .2s;
+}
+.container img:hover{
+    box-shadow: 3rem 3.5rem 4.5rem #000,
+                3rem 3.5rem 4.5rem #000;
+    filter: grayscale(0);
+}
+.details{
+    width: 46%;
+}
+.details h1{
+    font-size: 5.2rem;
+    font-weight: 700;
+    color: black;
+}
+body.dark-mode .container img{
+    box-shadow: 0.75rem 1.25rem 2.5rem #fff,
+                0.75rem 1.25rem 2.5rem #fff;
+}
+body.dark-mode .container img:hover{
+    box-shadow:
+                1.5rem 1.75rem 3.25rem #fff,
+                1.5rem 1.75rem 3.25rem #fff;
+}
+body.dark-mode .details h1,
+body.dark-mode .desc h4{
+    color: white;
+}
+.details .desc h4{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.desc h2{
+    font-weight: 400;
+}
+.icons{
+    width: 17%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.icons .instagram i,
+.icons .github i{
+    font-size: 2.5rem;
+}
+.icons .instagram,
+.icons .github{
+    cursor: pointer;
+}
+.icons .instagram i,
+.icons .github i{
+    color: #fff;
+}
+.instagram,
+.github{
+    background-color: #000;
+    border-radius: 30%;
+    transition: linear .4s;
+}
+.instagram:hover,
+.github:hover{
+    box-shadow: 0 0 0.8rem #000;
+}
+body.dark-mode .icons .instagram i,
+body.dark-mode .icons .github i{
+    color: #000;
+}
+body.dark-mode .instagram,
+body.dark-mode .github{
+    background-color: #fff;
+}
+body.dark-mode .instagram:hover,
+body.dark-mode .github:hover{
+    box-shadow: 0 0 0.8rem #fff;
+}
+
+@media(max-width: 749px){
+    .container{
+        display: flex;
+        flex-direction: column;;
+    }
+    .container img{
+        width: 60%;
+    }
+    .details{
+        width: 60%;
+        margin-top: 2rem;
+    }
+    .details h1{
+        font-size: 3.89rem;
+    }
+}
+@media(max-width: 449px){
+    .details h1{
+        font-size: 3rem;
+    }
+}
