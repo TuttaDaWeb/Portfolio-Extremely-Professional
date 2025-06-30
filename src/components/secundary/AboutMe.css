@@ -24,6 +24,7 @@
 .desc_about h5,
 .desc_about h6{
     font-size: 1.2rem;
+    font-weight: 500;
 }
 .desc_about h6 span{
     color: #009440;
