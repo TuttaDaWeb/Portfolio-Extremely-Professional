@@ -1,5 +1,6 @@
 import Main_Page from './components/main_page'
 import NavBar from './components/navbar'
+import About_Me from './components/secundary/AboutMe'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
     <NavBar/>
     <Main_Page/>
+    <About_Me/>
     </>
   )
 }
