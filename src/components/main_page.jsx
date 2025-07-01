@@ -11,7 +11,7 @@ function MainPage(){
 
     useEffect(()=>{
         const typed = new Typed(el.current, {
-            strings: ["Programmer", "Software Developer", "Front-end", "Asperger"],
+            strings: ["Software Developer", "Front-end", "Asperger"],
             typeSpeed: 150,
             backDelay: 280,
             backSpeed: 170,

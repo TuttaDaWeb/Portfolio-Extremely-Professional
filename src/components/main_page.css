@@ -97,15 +97,22 @@ body.dark-mode .github:hover{
         width: 60%;
     }
     .details{
-        width: 60%;
+        width: 85%;
         margin-top: 2rem;
     }
     .details h1{
-        font-size: 3.89rem;
+        font-size: 3.9rem;
+        padding: 0 1.5rem;
     }
 }
 @media(max-width: 449px){
     .details h1{
         font-size: 3rem;
+    }
+    .container img{
+        box-shadow: 1rem 1.5rem 3rem #000;
+    }
+    .container img:hover{
+        box-shadow: 2rem 2.5rem 4rem #000;
     }
 }
