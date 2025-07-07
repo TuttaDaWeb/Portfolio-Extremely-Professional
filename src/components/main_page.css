@@ -12,6 +12,7 @@
                 1.5rem 2rem 3rem #000;
     filter: grayscale(1);
     transition: linear .2s;
+    animation: in .8s 1;
 }
 .container img:hover{
     box-shadow: 3rem 3.5rem 4.5rem #000,
@@ -20,6 +21,7 @@
 }
 .details{
     width: 46%;
+    animation: out 1 .8s;
 }
 .details h1{
     font-size: 5.2rem;
@@ -114,5 +116,25 @@ body.dark-mode .github:hover{
     }
     .container img:hover{
         box-shadow: 2rem 2.5rem 4rem #000;
+    }
+}
+
+@keyframes in{
+    from{
+        transform: translateX(-80px);
+        opacity: 0;
+    }to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes out {
+    from{
+        transform: translateX(80px);
+        filter: blur(12px);
+    }to{
+        transform: translateX(0);
+        filter: blur(0);
     }
 }
