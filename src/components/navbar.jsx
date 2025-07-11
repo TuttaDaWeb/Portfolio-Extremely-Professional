@@ -14,11 +14,14 @@ function NavBar() {
             <h1>Arthur</h1>
             <div className="menu" onClick={() => setMenu(!isMenu)}><i class="ri-menu-line"></i></div>
             <div className={`navbar_background ${!isMenu ? '' : 'active'}`}>
-                <div className="navbar">
-                    <a href="#">Home</a>
-                    <a href="#">About Me</a>
-                    <a href="#">Projects</a>
-                    <a href="https://www.instagram.com/tuttadocs/">Follow me</a>
+                <div className="navbar_close">
+                    <div className="navbar">
+                        <a href="#">Home</a>
+                        <a href="#">About Me</a>
+                        <a href="#">Projects</a>
+                        <a href="https://www.instagram.com/tuttadocs/">Follow me</a>
+                    </div>
+                    <div className="close" onClick={()=> setMenu(!isMenu)}><i class="ri-close-line"></i></div>
                 </div>
             </div>
             <div className="dark_light_mode">

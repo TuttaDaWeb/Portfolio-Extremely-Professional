@@ -5,7 +5,6 @@ function About_Me(){
 
     const name = 'Arthur Vieira de Oliveira'
     const country = 'Brazil'
-    const description = 'I am a Brazilian aspiring developer based in São Paulo, passionate about technology and driven by a deep curiosity to master programming languages such as C++ and React Native. Living with Asperger’s Syndrome has significantly shaped my perspective, fostering a high level of focus, detail orientation, and responsiveness in everything I pursue. I bring a structured approach to problem-solving and value clarity and precision in communication. Moreover, I am committed to continuous learning, always seeking opportunities to expand my skill set and contribute meaningfully to innovative projects. I believe that adaptability and persistence are key to personal and professional growth, thereby guiding my journey in the tech field.'
 
     return(
         <>

@@ -8,14 +8,14 @@ function App() {
 
   return (
     <>
-    <Parallax pages={2}>
+    <NavBar/>
+    <Parallax pages={2} aria-busy={true}>
       <ParallaxLayer 
         speed={0.8}
         factor={1.2}
         style={{
           backgroundSize: '75%'
         }}>
-        <NavBar/>
         <Main_Page />
       </ParallaxLayer>
       <ParallaxLayer 
