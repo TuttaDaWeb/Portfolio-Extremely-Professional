@@ -28,7 +28,7 @@
     font-weight: 200;
 }
 .desc_about h6 span{
-    color: #009440;
+    color: #ffffff;
 }
 
 body.dark-mode .container_about{
@@ -44,7 +44,7 @@ body.dark-mode .desc_about{
     }
 }
 
-@media(max-width: 851px){
+@media(max-width: 821px){
     .img_pic{
         width: 280px;
         height: 280px;
@@ -65,10 +65,24 @@ body.dark-mode .desc_about{
         width: min(90%, 90%);
     }
     .desc_about h6{
-        font-size: 0.65rem;
+        font-size: 0.92rem;
     }
 }
-
+@media(max-width: 478px) {
+    .desc_about h6{
+        font-size: 0.82rem;
+    }
+}
+@media(max-width: 375px) {
+    .desc_about h6{
+        font-size: 0.72rem;
+    }
+}
+@media(max-width: 299px) {
+    .desc_about h6{
+        font-size: 0.64rem;
+    }
+}
 @keyframes anim-start {
     0%{
         filter: blur(12px);

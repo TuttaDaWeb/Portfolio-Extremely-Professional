@@ -9,20 +9,6 @@ function MainPage(){
     const desc = "I am a 17-year-old aspiring developer with experience in web technologies and a focus on React. I previously managed an online gaming news website, gaining hands-on experience in content management and digital communication. I am passionate about creating efficient and user-friendly interfaces and continuously improving my skills in front-end development."
     const name = "Arthur Vieira de Oliveira"
 
-    useEffect(()=>{
-        const typed = new Typed(el.current, {
-            strings: ["Software Developer", "Front-end", "Asperger"],
-            typeSpeed: 150,
-            backDelay: 280,
-            backSpeed: 170,
-            loop: true,
-        })
-
-        return () => {
-            typed.destroy()
-        }
-    })
-
     const linkRedirect = (name) => {
         if(name === 'instagram'){
             window.location.href = "https://www.instagram.com/tuttadocs/"
@@ -37,7 +23,7 @@ function MainPage(){
         <div className="container">
             <img src={Pic} alt="" />
             <div className="details">
-                <h1 ref={el}></h1>
+                <h1>Front-End Programmer</h1>
                 <h2>{name}</h2>
                 <div className="desc">
                     <h4>{desc}</h4>

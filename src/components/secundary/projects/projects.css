@@ -17,17 +17,32 @@
     width: 100%;
     height: auto;
 }
+.details_p{
+    padding: 4%;
+}
 .desc_{
-    overflow: scroll;
+    overflow: visible;
 }
 .desc_ p{
     color: black;
 }
 .tools{
-    margin-left: 1.2rem;
+    margin-top: 1.2rem;
     display: flex;
     width: 90%;
     justify-content: space-between;
+}
+.btn-see-the-code{
+    margin-top: 20px;
+    color: white;
+    width: 125px;
+    height: 45px;
+    background-color: black;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 body.dark-mode .desc_ p{
@@ -35,4 +50,12 @@ body.dark-mode .desc_ p{
 }
 body.dark-mode .project{
     box-shadow: 0px 2px 4px #fff;
+}
+@media(max-width: 489px){
+    .tools{
+        margin-left: 0;
+    }
+    .tools h2{
+        font-size: 1.4rem;
+    }
 }

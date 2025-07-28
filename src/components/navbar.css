@@ -55,13 +55,13 @@ body.dark-mode .navbar a::after{
     background-color: white;
 }
 
-@media(max-width: 904px){
-    .navbar_backgound{
-        width: 58%;
+@media(max-width: 908px){
+    .navbar_background{
+        width: 40%;
     }
 }
 
-@media(max-width: 770px){
+@media(max-width: 822px){
     .wrapper .menu{
         z-index: 1000;
     }
