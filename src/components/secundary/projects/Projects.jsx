@@ -8,7 +8,7 @@ function Projects(){
     const projects = [
         {
             image: Image1,
-            description: "That was one of my first projects, I tried to make a login scrre using HTML, CSS, JS and Bootstrap",
+            description: "That was one of my first projects, I tried to make a login screen using HTML, CSS, JS and Bootstrap",
             name: 'Login Screen',
             tools: ['HTML', 'CSS', 'JS', 'Bootstrap'],
             link: 'https://github.com/TuttaDaWeb/Sistema-de-Login'
