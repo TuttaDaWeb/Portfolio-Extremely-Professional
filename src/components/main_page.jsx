@@ -23,7 +23,7 @@ function MainPage(){
         <div className="container">
             <img src={Pic} alt="" />
             <div className="details">
-                <h1>Front-End Programmer</h1>
+                <h1>Aspiring developer</h1>
                 <h2>{name}</h2>
                 <div className="desc">
                     <h4>{desc}</h4>
