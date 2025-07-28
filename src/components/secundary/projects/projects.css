@@ -34,5 +34,5 @@ body.dark-mode .desc_ p{
     color: white;
 }
 body.dark-mode .project{
-    border-color: #fff;
+    box-shadow: 0px 2px 4px #fff;
 }
