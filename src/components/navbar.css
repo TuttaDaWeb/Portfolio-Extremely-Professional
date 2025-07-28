@@ -114,6 +114,15 @@ body.dark-mode .navbar a::after{
         align-self: flex-start;
         justify-content: flex-end;
     }
+    body.dark-mode .navbar_background.active .navbar_close .navbar a{
+        color: black;
+    }
+    body.dark-mode .close{
+        color: black;
+    }
+    body.dark-mode .menu{
+        color: white;
+    }
 }
 
 @keyframes start-in {
