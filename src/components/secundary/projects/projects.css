@@ -2,12 +2,12 @@
     margin-top: 50px;
     width: 100%;
     height: 100%;
-    display: grid;
-    grid: 10% 20% 30% 50%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .project{
     padding-bottom: 1.2rem;
-    width: 425px;
+    width: 525px;
     margin: 2rem;
     border-radius: 1rem;
     overflow: hidden;

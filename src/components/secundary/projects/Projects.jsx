@@ -1,5 +1,6 @@
 import Image1 from './../../../assets/projects/project1.png'
 import Image2 from './../../../assets/projects/project2.png'
+import Image3 from './../../../assets/projects/project3.png'
 import './projects.css'
 
 function Projects(){
@@ -15,6 +16,12 @@ function Projects(){
             image: Image2,
             description: "In this Project, I tried to develop a Anime-styled Backdropfilter-css Login Screen, however, I used React and CS to develop it completely",
             name: 'Anime-style Login Screen',
+            tools: ['React.js', 'CSS']
+        },
+        {
+            image: Image3,
+            description: "Thais project was create to make a customer happy, I got a customer a few months ago, He wanted me to develop a landing page for his DayTrade E-book",
+            name: 'Crypto E-book Landing Page',
             tools: ['React.js', 'CSS']
         }
     ]
